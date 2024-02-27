@@ -4,11 +4,14 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  background: rgb(25, 254, 25, 0.7);
   font-weight: 400;
-  color: $dark-blue-text;
+  // color: $dark-blue-text; //original
+  // color: $white-color;
+  color: $dark-grey;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
+  // margin-top: 50px;
   top: 0;
   left: 0;
   bottom: 0;
@@ -20,9 +23,9 @@
 
   // If you want to set a background image on the hero section, uncomment these with your custom image
 
-  /* background: url("/src/assets/[your-image].png");
+  background: url("/src/assets/bg.png");
   background-position: center;
-  background-size: cover; */
+  background-size: cover; 
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
@@ -32,7 +35,10 @@
     font-size: 5.6rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
+    // margin-top: 300px;
     text-align: left;
+    // font-family: 'Sixtyfour', sans-serif;
+    font-family: 'Jost', sans-serif;
 
     @include respond(tab-land) {
       font-size: 4rem;
@@ -52,6 +58,8 @@
 
   .hero-cta {
     display: flex;
+    // margin-top: 100px;
+    font-family: 'Jost', sans-serif;
 
     @include respond(tab-port) {
       justify-content: center;
@@ -66,3 +74,16 @@
     }
   }
 }
+
+.dynamic-text {
+  font-size: 0.6em;
+  /* Adjust the size as needed */
+}
+
+.final-line {
+  font-size: 0.6em;
+}
+
+// .btn btn-outline-success {
+
+// }
