@@ -8,10 +8,10 @@ initTiltEffect();
 const heroTitle = document.querySelector('.hero-title');
 const staticText = heroTitle.innerHTML; // Get the existing HTML
 const phrases = [
-  "Welcome to my website, remodeled for today's interview with PIC's Hiring Team!",
-  "Thank you for giving me the opportunity to present myself and my projects today",
+  "Welcome to my website!",
+  "I am a Data Scientist constantly looking for new projects and opportunities.",
 ];
-const finalLine = "Now, let's get started!"
+const finalLine = "Let's transform your vision into an astounding reality together!"
 
 let phraseIndex = 0;
 let charIndex = 0; // Start from the beginning of the first phrase
